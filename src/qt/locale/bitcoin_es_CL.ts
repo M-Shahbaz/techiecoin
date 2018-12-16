@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Techiecoin address</source>
-        <translation>Enviar monedas a una dirección litecoin</translation>
+        <translation>Enviar monedas a una dirección techiecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -206,8 +206,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
+        <source>Request payments (generates QR codes and techiecoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and techiecoin: URls)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -773,7 +773,7 @@
     </message>
     <message>
         <source>Techiecoin Core</source>
-        <translation>litecoin core</translation>
+        <translation>techiecoin core</translation>
     </message>
     <message>
         <source>Error loading block database</source>

@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Techiecoin"
-#define QAPP_ORG_DOMAIN "litecoin.org"
+#define QAPP_ORG_DOMAIN "techiecoin.org"
 #define QAPP_APP_NAME_DEFAULT "Techiecoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Techiecoin-Qt-testnet"
 
