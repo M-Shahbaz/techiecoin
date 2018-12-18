@@ -122,9 +122,8 @@ public:
 
         genesis = CreateGenesisBlock(1545131250, 2095775697, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
-
+        assert(consensus.hashGenesisBlock == uint256S("0x2eab31fd0f1be22a06b7d1f1bc98b291a62ac8d7083914cac34d4ec6bfe749a0"));
+        assert(genesis.hashMerkleRoot == uint256S("0x916dec026504f8ea25dffa2946e6028d70a22f03d6e13565b5badd93234b4f7d"));
         // Note that of those with the service bits flag, most only support a subset of possible options
         //vSeeds.emplace_back("seed-a.techiecoin.loshan.co.uk");
         //vSeeds.emplace_back("dnsseed.thrasher.io");
