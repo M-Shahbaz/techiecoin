@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Techiecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Techiecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -232,7 +232,7 @@
     </message>
     <message>
         <location line="-56"/>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your techiecoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -435,8 +435,8 @@
     </message>
     <message>
         <location line="-511"/>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Send coins to a Litecoin address</translation>
+        <source>Send coins to a Techiecoin address</source>
+        <translation>Send coins to a Techiecoin address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -465,8 +465,8 @@
     </message>
     <message>
         <location line="+517"/>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Techiecoin</source>
+        <translation>Techiecoin</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -500,13 +500,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Sign messages with your Litecoin addresses to prove you own them</translation>
+        <source>Sign messages with your Techiecoin addresses to prove you own them</source>
+        <translation>Sign messages with your Techiecoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Litecoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Techiecoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Techiecoin addresses</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -530,7 +530,7 @@
     </message>
     <message>
         <location line="-158"/>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <source>Request payments (generates QR codes and techiecoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -545,7 +545,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a litecoin: URI or payment request</source>
+        <source>Open a techiecoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -555,10 +555,10 @@
     </message>
     <message numerus="yes">
         <location line="+357"/>
-        <source>%n active connection(s) to Litecoin network</source>
+        <source>%n active connection(s) to Techiecoin network</source>
         <translation>
-            <numerusform>%n active connection to Litecoin network</numerusform>
-            <numerusform>%n active connections to Litecoin network</numerusform>
+            <numerusform>%n active connection to Techiecoin network</numerusform>
+            <numerusform>%n active connections to Techiecoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -616,7 +616,7 @@
     </message>
     <message>
         <location line="-441"/>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Techiecoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -696,7 +696,7 @@
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+531"/>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Techiecoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -939,7 +939,7 @@
     </message>
     <message>
         <location line="+72"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Techiecoin address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1099,8 +1099,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+20"/>
-        <source>Litecoin</source>
-        <translation type="unfinished">Litecoin</translation>
+        <source>Techiecoin</source>
+        <translation type="unfinished">Techiecoin</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1114,7 +1114,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>%1 will download and store a copy of the Litecoin block chain.</source>
+        <source>%1 will download and store a copy of the Techiecoin block chain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1158,12 +1158,12 @@
     </message>
     <message>
         <location line="+119"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the techiecoin network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend techiecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1381,8 +1381,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Techiecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Techiecoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1401,7 +1401,7 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Techiecoin network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1449,7 +1449,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Techiecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1584,8 +1584,8 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Techiecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Techiecoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1682,7 +1682,7 @@
     </message>
     <message>
         <location line="-398"/>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start techiecoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1704,7 +1704,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Techiecoin address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1836,7 +1836,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+130"/>
-        <source>Enter a Litecoin address (e.g. %1)</source>
+        <source>Enter a Techiecoin address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2422,7 +2422,7 @@
     <message>
         <location line="-3"/>
         <location line="+46"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Techiecoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2730,7 +2730,7 @@
     <message>
         <location line="+78"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for techiecoin transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2951,7 +2951,7 @@
     </message>
     <message>
         <location line="+101"/>
-        <source>Warning: Invalid Litecoin address</source>
+        <source>Warning: Invalid Techiecoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3006,7 +3006,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The Litecoin address to send the payment to</source>
+        <source>The Techiecoin address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3033,7 +3033,7 @@
     </message>
     <message>
         <location line="-1028"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less techiecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3068,7 +3068,7 @@
     </message>
     <message>
         <location line="+54"/>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <source>A message that was attached to the techiecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Techiecoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3125,12 +3125,12 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive techiecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Litecoin address to sign the message with</source>
+        <source>The Techiecoin address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3172,8 +3172,8 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Sign the message to prove you own this Litecoin address</translation>
+        <source>Sign the message to prove you own this Techiecoin address</source>
+        <translation>Sign the message to prove you own this Techiecoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3203,13 +3203,13 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The Litecoin address the message was signed with</source>
+        <source>The Techiecoin address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Litecoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Techiecoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Techiecoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4101,8 +4101,8 @@
     </message>
     <message>
         <location line="-395"/>
-        <source>Litecoin Core</source>
-        <translation type="unfinished">Litecoin Core</translation>
+        <source>Techiecoin Core</source>
+        <translation type="unfinished">Techiecoin Core</translation>
     </message>
     <message>
         <location line="+1"/>
