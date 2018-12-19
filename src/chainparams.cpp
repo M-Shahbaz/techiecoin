@@ -49,7 +49,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "BBC NEWS 20/Dec/2017 Bitcoin Cash deals frozen as insider trading is probed";
+    const char* pszTimestamp = "Reuters 19/Dec/2018 UK PM May urges devolved nations to back her Brexit deal";
     const CScript genesisOutputScript = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -106,8 +106,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x29c8c00e1a5f446a6364a29633d3f1ee16428d87c8d3851a1c570be8170b04c2"); //1441280
-
+        consensus.defaultAssumeValid = uint256S("0x66f49ad85624c33e4fd61aa45c54012509ed4a53308908dd07f56346c7939273"); //1441280
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
@@ -120,10 +119,10 @@ public:
         nDefaultPort = 9919;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1513784917, 2084820399, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1545207611, 2086757039, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0xee686214586277080977cf43d2a0b38bcd48d696129b19c026d8208f9e745cea"));
-        assert(genesis.hashMerkleRoot == uint256S("0x805d8d176abe872f5cd40b558869a0d25ed02ae471fa33f80185443e5ca9cb40"));
+        assert(consensus.hashGenesisBlock == uint256S("0xf696328a06fb22fcdd83789581bd5247e2f23bea00ae1c4ff4849467016a2a24"));
+        assert(genesis.hashMerkleRoot == uint256S("0x1a63d9565bb88c5396c8030841e83f632f5d3695bd0d87e79a6769910dd2f5a9"));
         // Note that of those with the service bits flag, most only support a subset of possible options
         //vSeeds.emplace_back("seed-a.techiecoin.loshan.co.uk");
         //vSeeds.emplace_back("dnsseed.thrasher.io");
@@ -131,10 +130,10 @@ public:
         //vSeeds.emplace_back("dnsseed.techiecoinpool.org");
         //vSeeds.emplace_back("dnsseed.koin-project.com");
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,66);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,35);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,66);
         base58Prefixes[EXT_PUBLIC_KEY] = {0xff, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0xff, 0x88, 0xAD, 0xE4};
 
@@ -148,7 +147,7 @@ public:
 
         checkpointData = {
             {
-		{  0, uint256S("0xee686214586277080977cf43d2a0b38bcd48d696129b19c026d8208f9e745cea")},
+		{  0, uint256S("0xf696328a06fb22fcdd83789581bd5247e2f23bea00ae1c4ff4849467016a2a24")},
 		/*
                 {  1500, uint256S("0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a2967")},
                 {  4032, uint256S("0x9ce90e427198fc0ef05e5905ce3503725b80e26afd35a987965fd7e3d9cf0846")},
@@ -172,7 +171,7 @@ public:
 
         chainTxData = ChainTxData{
             // Data as of block 59c9b9d3fec105bdc716d84caa7579503d5b05b73618d0bf2d5fa639f780a011 (height 1353397).
-            1513784917, // * UNIX timestamp of last known number of transactions
+            1545207611, // * UNIX timestamp of last known number of transactions
             0,  // * total number of transactions between genesis and that timestamp
                     //   (the tx=... number in the SetBestChain debug.log lines)
             0.0     // * estimated number of transactions per second after that timestamp
