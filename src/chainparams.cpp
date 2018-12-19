@@ -112,17 +112,22 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xd0;
+        pchMessageStart[0] = 0xd1;
         pchMessageStart[1] = 0xe1;
         pchMessageStart[2] = 0xf5;
         pchMessageStart[3] = 0xec;
         nDefaultPort = 9919;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1545207611, 2086757039, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1545207611, 2084820399, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0xf696328a06fb22fcdd83789581bd5247e2f23bea00ae1c4ff4849467016a2a24"));
-        assert(genesis.hashMerkleRoot == uint256S("0x1a63d9565bb88c5396c8030841e83f632f5d3695bd0d87e79a6769910dd2f5a9"));
+	/*
+	//Found GenesisBlock and MerkleRoot that way :P	
+	printf("%s\n", consensus.hashGenesisBlock.ToString().c_str());
+	printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
+	*/
+	assert(consensus.hashGenesisBlock == uint256S("0xe86a5cc45c1ce38b329b587b99f7e91e3f91264249a5f368b53dffba0d44fd7b"));
+        assert(genesis.hashMerkleRoot == uint256S("0x4c472b51cc374c1c5b8deae251977dfd51b6110a3c68a914ab343cb4fc0d5aad"));
         // Note that of those with the service bits flag, most only support a subset of possible options
         //vSeeds.emplace_back("seed-a.techiecoin.loshan.co.uk");
         //vSeeds.emplace_back("dnsseed.thrasher.io");
@@ -147,7 +152,7 @@ public:
 
         checkpointData = {
             {
-		{  0, uint256S("0xf696328a06fb22fcdd83789581bd5247e2f23bea00ae1c4ff4849467016a2a24")},
+		{  0, uint256S("0xe86a5cc45c1ce38b329b587b99f7e91e3f91264249a5f368b53dffba0d44fd7b")},
 		/*
                 {  1500, uint256S("0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a2967")},
                 {  4032, uint256S("0x9ce90e427198fc0ef05e5905ce3503725b80e26afd35a987965fd7e3d9cf0846")},
@@ -261,7 +266,7 @@ public:
 
         chainTxData = ChainTxData{
             // Data as of block a0afbded94d4be233e191525dc2d467af5c7eab3143c852c3cd549831022aad6 (height 343833)
-            1516406749,
+            1545207611,
             794057,
             0.01
         };
