@@ -231,17 +231,17 @@ public:
         nDefaultPort = 19335;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1486949366, 293345, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1486949366, 1800722, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x2eab31fd0f1be22a06b7d1f1bc98b291a62ac8d7083914cac34d4ec6bfe749a0"));
-        assert(genesis.hashMerkleRoot == uint256S("0x916dec026504f8ea25dffa2946e6028d70a22f03d6e13565b5badd93234b4f7d"));
+        assert(consensus.hashGenesisBlock == uint256S("0xc50017283db83c32a66a42918a8ab5585c2e8e6a7f2681ce5ea468280bb6e853"));
+        assert(genesis.hashMerkleRoot == uint256S("0xc114fcd1fcea034c639402cce282eac004136af071fe88e4958dab2620b8bfd0"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.techiecointools.com");
-        vSeeds.emplace_back("seed-b.techiecoin.loshan.co.uk");
-        vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
+        //vSeeds.emplace_back("testnet-seed.techiecointools.com");
+        //vSeeds.emplace_back("seed-b.techiecoin.loshan.co.uk");
+        //vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
@@ -260,15 +260,15 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {2056, uint256S("17748a31ba97afdc9a4f86837a39d287e3e7c7290a08a1d816c5969c78a83289")},
+                {0, uint256S("c50017283db83c32a66a42918a8ab5585c2e8e6a7f2681ce5ea468280bb6e853")},
             }
         };
 
         chainTxData = ChainTxData{
-            // Data as of block a0afbded94d4be233e191525dc2d467af5c7eab3143c852c3cd549831022aad6 (height 343833)
-            1545207611,
-            794057,
-            0.01
+            // Data as of block 0 (height 0)
+            1486949366,
+            0,
+            0.0
         };
 
     }
@@ -317,10 +317,10 @@ public:
         nDefaultPort = 19444;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1296688602, 0, 0x207fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1296688602, 2, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(consensus.hashGenesisBlock == uint256S("0xa1d4c12369279f5599acc6e0f5a283490c7fb9f7b20c8b47e48cf8a6e1927357"));
+        assert(genesis.hashMerkleRoot == uint256S("0xc114fcd1fcea034c639402cce282eac004136af071fe88e4958dab2620b8bfd0"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
@@ -331,14 +331,14 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9")},
+                {0, uint256S("a1d4c12369279f5599acc6e0f5a283490c7fb9f7b20c8b47e48cf8a6e1927357")},
             }
         };
 
         chainTxData = ChainTxData{
             0,
             0,
-            0
+            0.0
         };
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
